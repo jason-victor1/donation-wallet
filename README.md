@@ -83,21 +83,28 @@ When deploying the contract, I ensured to pass the correct beneficiary address a
 1. **Deploy the Contract**
    - Deployed with the beneficiary address: `0xAb8...35cb2`. Please see below for the result of the contract deployment.
 
-*donation deployed contract*
+![Deployed Contract Screenshot](https://github.com/jason-victor1/donation-wallet/blob/main/donation%20deployed%20contract.png?raw=true)
 
 2. **Deposit Ether**
    - When 10 ether was deposited, 1% (0.1 ether) was automatically sent to the beneficiary. Please see below screenshots for the deposit of 10 ether.
 
-#### Beneficiary Address:`0xAb8...35cb2`
+![Deployed Contract Screenshot](https://github.com/jason-victor1/donation-wallet/blob/main/deposit%2010%20ether.png?raw=true)
+
+![Deployed Contract Screenshot](https://github.com/jason-victor1/donation-wallet/blob/main/beneficiary%20account%20result.png?raw=true)
 
    - The contract retained the remaining 9.9 ether.
 
 3. **Withdraw Ether**
-   - I, as the owner, could withdraw 9.9 ether back to my address.
+   - I, as the owner, withdrew 9.9 ether back to my address. The withdraw function had two parameters which were the recepient amount (owner address only) and Wei amount (1 ether     = 10 ^ 18 Wei so 9900000000000000000 Wei). Please see below screenshots for the performance of the withdrawal.
 
-*withdrawal screenshots*
+![Deployed Contract Screenshot](https://github.com/jason-victor1/donation-wallet/blob/main/withdraw%20with%20owner%20and%20wei%20.png?raw=true)
+
+![Deployed Contract Screenshot](https://github.com/jason-victor1/donation-wallet/blob/main/withdrawal%20performed.png?raw=true)
+
 
 ### Current Account Balance
+
+#### Beneficiary Address:`0xAb8...35cb2`
 
 #### Owner Address: `0x5B3...eddC4`
 
@@ -105,6 +112,8 @@ When deploying the contract, I ensured to pass the correct beneficiary address a
 - **New Balance After Withdrawal**: 99.8999999999998657882 ether
 
 Please see below screenshot reflecting the new balance after withdrawal.
+
+![Deployed Contract Screenshot](https://github.com/jason-victor1/donation-wallet/blob/main/owner%20account%20updated.png?raw=true)
 
 ### Summary of Operations
 
